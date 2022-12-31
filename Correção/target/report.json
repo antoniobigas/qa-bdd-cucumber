@@ -1,0 +1,301 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4342169007,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que desejo adicionar uma conta",
+            "match": {
+              "location": "InserirContasSteps.queDesejoAdicionarUmaConta()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-27T19:11:00.398Z",
+        "line": 18,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 351322319,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 116933872,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 618200350,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "adiciono a conta \"Conta de Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta de Teste",
+                  "offset": 18
+                }
+              ],
+              "location": "InserirContasSteps.adicionoAConta(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 51906480,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta adicionada com sucesso!",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4763981242,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que desejo adicionar uma conta",
+            "match": {
+              "location": "InserirContasSteps.queDesejoAdicionarUmaConta()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-27T19:11:05.907Z",
+        "line": 19,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 332865531,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 164525990,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 421479554,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "adiciono a conta \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "InserirContasSteps.adicionoAConta(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 59757137,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "recebo a mensagem \"Informe o nome da conta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Informe o nome da conta",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4316938241,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que desejo adicionar uma conta",
+            "match": {
+              "location": "InserirContasSteps.queDesejoAdicionarUmaConta()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-27T19:11:11.657Z",
+        "line": 20,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 301286632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 130181774,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 442951993,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "adiciono a conta \"Conta mesmo nome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta mesmo nome",
+                  "offset": 18
+                }
+              ],
+              "location": "InserirContasSteps.adicionoAConta(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 56322285,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "recebo a mensagem \"Já existe uma conta com esse nome!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Já existe uma conta com esse nome!",
+                  "offset": 19
+                }
+              ],
+              "location": "InserirContasSteps.receboAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "\tComo um usuário \n\tGostaria de cadastrar contas\n\tPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/inserir_conta.feature",
+    "tags": [
+      {
+        "name": "@funcionais",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
