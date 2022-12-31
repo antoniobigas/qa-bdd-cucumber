@@ -48,7 +48,6 @@ Automação -
 CASE de teste - 
 	
 
-
 	#Pirâmide de testes
 7 - Aprender as técnicas e niveis. Entender para que a pirâmide serve:
 R: Os testes em niveis mais altos na pirâmide levam mais tempo para ser realizados, geralmente os testes em niveis mais baixos na pirâmide são executados com mais frequência e com mais "unidades" de teste.
@@ -62,7 +61,57 @@ Meio piramide:	Automated Integration Tests
 Meio piramide:	Automated Component Tests	
 Base piramide:	Automated Unit Tests
 
+	
+	#Requisitos
+8 - Diferença dos requisitos.
 
+Exemplo: Programa para venda de remédio em uma farmácia
+
+@Requisitos:    O programa deve ser capaz de faturar uma venda. - Funcional
+		Quero que o programa salve os dados ao final do dia - Funcional
+		Quero que o programa emita notas fiscais - Funcional
+		Quero que a venda seja faturada em até 3 segundos - Não funcional, no caso desempenho
+		Quero que os dados sejam seguros - Não funcional, no caso segurança
+
+
+Regras de negócio é preciso respeitar de acordo com software que é desenvolvido
+@Regras de negócio: RN1: Cada venda de medicamentos deve pagar imposto de 20%.
+		    RN2: para antibioticos precisamos reter a receita
+
+
+Historia ou estória de usuário: Vem do SCRUM, Metologias ágeis.
+			Funcional
+@User Stories:  Como: vendedor da farmácia
+		Eu quero: poder faturar uma venda
+		Para: ter mais agilidade e organização na minha farmácia
+			Não Funcional
+		Como: vendedor da farmácia
+		Eu quero: faturar uma venda rapida (3ms)
+		Para: Para que meu cliente não desista da compra
+
+
+@Critérios de aceitação: 
+
+#São elementos que eu olho para saber se minha estória de usuário está pronta ou não. 
+
+
+			#AC1: 
+			Dado: que eu preencho os dados de venda com informações validas
+			Quando: faturar minha venda
+			Então: a venda deve ser realizada com sucesso.
+
+			#AC2: 
+			Dado: que eu quero realizar uma venda com segurança
+			Quando: quando a venda for efetivada
+			Então: meus dados devem ser salvos de forma a não estar disponível na internet.
+			
+@Cenários de teste:
+		Possiveis cenários de uso do meu software (AC's)
+
+
+@Casos de teste:
+		Contém 1 ou mais cenários.
+	
 
 
 
