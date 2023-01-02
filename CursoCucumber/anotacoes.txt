@@ -21,11 +21,11 @@ R: Geralmente você consegue implementar arquitetura de microserviços de formas
 
 
 	#Processo
-3 - O que é BDD (BEHAVIOR DRIVER DEVELOPMENT) e como ele ajuda a sua equipe?
-Video: https://www.youtube.com/watch?v=HH-m46ldctw
-R: BEHAVIOR DRIVER DEVELOPMENT = Processo artefato e uma forma de se trabalhar que envolve toda uma equipe.
-Desenvolver resposta após video:
+		3.a - O que é BDD (BEHAVIOR DRIVER DEVELOPMENT) e como ele ajuda a sua equipe?
+R: BDD (Behavior Driven Development) é uma técnica de desenvolvimento de software que se concentra em compreender o comportamento do sistema sob teste. Ele usa linguagem natural para descrever os comportamentos esperados do sistema e, em seguida, escreve testes de unidade para garantir que o comportamento está de acordo com o esperado. O BDD ajuda a equipe a entender os requisitos do sistema de maneira mais clara e a garantir que o código produzido atenda a esses requisitos. Além disso, o BDD pode ajudar a equipe a identificar problemas e erros no código mais cedo no processo de desenvolvimento, o que pode economizar tempo e esforço na correção de problemas mais tarde.
 
+		3.b - O que é TDD ( TEST DRIVER DEVELOPMENT) e como ele ajuda sua equipe?
+R: TDD (Test Driven Development) é uma técnica de desenvolvimento de software em que o desenvolvedor escreve testes de unidade antes de escrever o código de implementação. O objetivo é garantir que o código atenda aos requisitos especificados e esteja correto. Isso ajuda a equipe a garantir que o código produzido atenda aos requisitos e esteja livre de erros, o que pode levar a um processo de desenvolvimento mais eficiente e a produtos de software de qualidade. Além disso, o TDD pode ajudar a equipe a identificar problemas e erros no código mais cedo no processo de desenvolvimento, o que pode economizar tempo e esforço na correção de problemas mais tarde.
 
 	#DevOps
 4 - O que é CI-CD e qual sua importância em equipes ágeis?
@@ -125,3 +125,5 @@ Historia ou estória de usuário: Vem do SCRUM, Metologias ágeis.
 
 @Casos de teste:
 		Contém 1 ou mais cenários.
+	
+
