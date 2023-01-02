@@ -4,10 +4,13 @@ Metodo STAR
 Situacion Tark Action Result
 
 
+
 Perguntas e assuntos para estudar sobre entrevista de QA
 	
 	#SoftSkill
 1 - Me conta uma situação que sua escolha foi errada, como você percebeu isso e corrigiu?
+Relacionado a soft skills...
+Exemplo:
 R: Em algum momento eu escolhi X  software e conforme utilização percebeu a falta de documentação e conteúdos em foruns e a eequipe decidiu mudar de framework. 
 Minha Resposta:
 
@@ -38,15 +41,26 @@ Qual a linguagem de programação: ?
 R: teste de api jUnit para rodar os testes, gradle para juntar as dependencias, linguagem java, selenium ou cucumber.
 
 
+
 	#Técnicas de teste
-6 - Quais técnicas existem e os metodos de aplicação
-Caixa preta -
-Caixa branca -
-Caixa Cinza -
-Teste unitario -
-Automação -
-CASE de teste - 
+			6 - Quais técnicas existem e os metodos de aplicação
+	6A - Teste de caixa preta: teste de caixa preta é uma técnica de teste em que o tester não tem nenhum conhecimento interno do sistema que está sendo testado. O tester apenas fornece entradas e verifica as saídas. Este tipo de teste é útil para verificar se o sistema está funcionando corretamente e se as saídas estão de acordo com o esperado.
+
+	6B - Teste de caixa branca: teste de caixa branca é uma técnica de teste em que o tester tem conhecimento interno da estrutura do sistema que está sendo testado. O tester pode usar essa informação para criar casos de teste mais detalhados e focados, verificando se o sistema está funcionando corretamente em um nível mais detalhado.
+
+	6C - Teste de caixa cinza: teste de caixa cinza é uma técnica de teste em que o tester tem algum conhecimento interno do sistema, mas não todos os detalhes. O tester pode usar essa informação para criar casos de teste que cubram vários aspectos do sistema, mas não todos os detalhes.
+
+	6D - Teste unitário: teste unitário é uma técnica de teste em que cada componente de um sistema é testado individualmente para garantir que está funcionando corretamente.
+
+	7E - Automação de teste: automação de teste é o processo de usar ferramentas de software para automatizar o processo de teste. Isso pode ajudar a economizar tempo e esforço, pois os testes podem ser executados rapidamente e repetidamente.
+
+	8F - Caso de teste: um caso de teste é um conjunto de condições ou dados usados para verificar se um sistema está funcionando corretamente. Cada caso de teste pode conter vários passos, cada um verificando uma condição ou saída específica.
+
+
+
+
 	
+
 
 	#Pirâmide de testes
 7 - Aprender as técnicas e niveis. Entender para que a pirâmide serve:
@@ -111,12 +125,3 @@ Historia ou estória de usuário: Vem do SCRUM, Metologias ágeis.
 
 @Casos de teste:
 		Contém 1 ou mais cenários.
-	
-
-
-
-
-
-
-
-
