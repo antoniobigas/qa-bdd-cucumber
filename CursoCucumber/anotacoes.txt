@@ -125,5 +125,27 @@ Historia ou estória de usuário: Vem do SCRUM, Metologias ágeis.
 
 @Casos de teste:
 		Contém 1 ou mais cenários.
+		
+		# API
+		9 -  Diferença de API REST e SOAP
+		REST (Transferência de Estado Representacional) e SOAP (Protocolo Simples de Acesso a Objetos) são ambos protocolos de serviço web. Eles permitem que 		      diferentes sistemas se comuniquem entre si através da internet, geralmente usando o protocolo HTTP.
+
+		Uma diferença fundamental entre REST e SOAP é a forma como eles são projetados. O REST é projetado para ser leve e fácil de usar, enquanto o SOAP é 		    projetado para ser mais extensível e seguro.
+
+ 		    Aqui estão algumas outras diferenças entre os dois:
+
+ 		     		    O REST usa HTTP para comunicação, enquanto o SOAP pode usar qualquer protocolo (como HTTP, SMTP, TCP, etc.).
+
+ 		    O REST não é tão rígido quanto o SOAP em termos de sua estrutura e formatação de dados. O REST permite diferentes formatos de dados (como XML, 			JSON, texto simples, etc.), enquanto o SOAP só permite XML.
+
+ 		    O REST é mais flexível em termos das operações que pode realizar. Ele permite o uso de diferentes métodos HTTP (como GET, POST, PUT, DELETE,        			etc.), enquanto o SOAP só permite alguns métodos específicos.
+
+ 		    O SOAP possui recursos de tratamento de erro e segurança incorporados, como WS-Security para criptografia e autenticação. O REST depende da 		segurança subjacente do protocolo sendo usado (geralmente HTTPS).
+
+ 		    No geral, o REST é geralmente considerado mais fácil de usar e mais flexível que o SOAP, mas o SOAP possui algumas vantagens em termos de 				segurança e suporte a sistemas mais antigos.
+
+
+
+
 	
 
